@@ -13,7 +13,7 @@ python加载器，采用多重异或加密，支持远程加载shellcode：
 
 ![image-20220725114914673](images/image-20220725114914673.png)
 
-#### Godizlla_Plugins
+#### Godzilla_Plugins
 
 哥斯拉插件，基于4.0版本内置shellcode内存加载功能，一键加载pe文件至JVM内存中，目前支持iox、mimikatz、runshc：
 
