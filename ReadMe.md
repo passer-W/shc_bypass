@@ -8,7 +8,7 @@
 
 #### Python_Schloader
 
-python加载器，采用多重异或加密，支持远程加载payload：
+python加载器，采用多重异或加密，支持远程加载shellcode：
 ![image-20220725114818175](images/image-20220725114818175.png)
 
 ![image-20220725114914673](images/image-20220725114914673.png)
@@ -17,7 +17,7 @@ python加载器，采用多重异或加密，支持远程加载payload：
 
 哥斯拉插件，基于4.0版本内置shellcode内存加载功能，一键加载pe文件至JVM内存中，目前支持iox、mimikatz、runshc：
 
-> javashellcoder加载iox会报错，可使用runshc简介加载
+> javashellcoder加载iox会报错，可使用runshc间接加载
 >
 > scan -> 扫描程序，体积过大暂时无法加载
 
